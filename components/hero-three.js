@@ -9,7 +9,7 @@ export default function HeroThree() {
                     className="w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-auto"
                     style={{
                         backgroundImage:
-                            "linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/heroThree-img.webp')",
+                            "linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/heroThree-img.webp')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}

@@ -27,7 +27,7 @@ export default function HeroFour() {
                 <div
                     className="w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-auto"
                     style={{
-                        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/heroFour-img.webp')`,
+                        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/herofour-img.webp')`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}
