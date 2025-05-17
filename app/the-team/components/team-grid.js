@@ -1,48 +1,44 @@
 import Image from "next/image";
 
-
-
 export default function TeamGrid() {
+  const team = [
+    {
+      name: "Gerald S. Adolph",
+      position: "Hiring Manager",
+      image: "/images/gerald.jpeg",
+    },
+    {
+      name: "Rose Yee",
+      position: "Hiring Manager",
+      image: "/images/rose.jpeg",
+    },
+    {
+      name: "Donald Parfet",
+      position: "Hiring Manager",
+      image: "/images/donald.jpeg",
+    },
+    {
+      name: "Terri Chase",
+      position: "Company Vendor",
+      image: "/images/terri.jpeg",
+    },
+    {
+      name: "Whew Silver",
+      position: "Account Manager",
+      image: "/images/silver.jpeg",
+    },
+    {
+      name: "Alexis Smart",
+      position: "Financial Account Manager",
+      image: "/images/alexis.jpeg", // fixed filename issue
+    },
+    {
+      name: "Edward Dolan",
+      position: "Company Vendor",
+      image: "/images/edward.jpeg",
+    },
+  ];
 
-    const team = [
-        {
-          name: "Gerald S.Adolph",
-          position: "Hiring Manager",
-          image: "/images/gerald.jpeg",
-        },
-        {
-          name: "Rose Yee",
-          position: "Hiring Manager",
-          image: "/images/rose.jpeg",
-        },
-        {
-          name: "Donald Parfet",
-          position: "Hiring Manager",
-          image: "/images/donald.jpeg",
-        },
-        {
-          name: "Terri Chase",
-          position: "Company Vendor",
-          image: "/images/terri.jpeg",
-        },
-        {
-            name: "Whew Silver",
-            position: "Account Mnager",
-            image: "/images/silver.jpeg",
-          },
-
-          {
-            name: "Alexis Smart",
-            position: "Financial Account Manager",
-            image: "/images/alexis'.jpeg",
-          },
-
-          {
-            name: "Edward Dolan",
-            position: "Company Vendor",
-            image: "/images/edward.jpeg",
-          },
-      ];
   return (
     <section className="w-full bg-[#FAFAFA] py-20 px-6 md:px-20">
       <div className="text-center mb-12">
@@ -60,7 +56,7 @@ export default function TeamGrid() {
             key={index}
             className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300"
           >
-            <div className="w-full h-[470px] relative rounded-xl overflow-hidden mb-4">
+            <div className="w-full h-[350px] sm:h-[400px] md:h-[470px] relative rounded-xl overflow-hidden mb-4">
               <Image
                 src={member.image}
                 alt={member.name}
@@ -68,7 +64,7 @@ export default function TeamGrid() {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-xl font-semibold text-gray-900">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900">
               {member.name}
             </h3>
             <p className="text-gray-500">{member.position}</p>
