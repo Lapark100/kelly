@@ -43,7 +43,7 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden flex flex-col space-y-4 px-6 pb-6 text-left text-[16px] font-medium bg-white border-t border-gray-200">
           <Link href="/" className="hover:text-[#00b142]">About Kelly</Link>
-          <Link href="/" className="hover:text-[#00b142]">The Kelly Advantage</Link>
+          <Link href="/the-team" className="hover:text-[#00b142]">The Kelly Team</Link>
           <Link href="/" className="hover:text-[#00b142]">News & Insight</Link>
           <Link href="/" className="hover:text-[#00b142]">Investors</Link>
           <Link href="/" className="hover:text-[#00b142]">Find a Job</Link>
