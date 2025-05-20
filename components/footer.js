@@ -46,7 +46,7 @@ export default function Footer() {
                             Contact Us
                         </p>
                         <div className="space-y-3">
-                            <p className="text-sm text-white">Email Us</p>
+                            <p className="text-sm text-white">Email Us: services1950.kelly@outlook.com</p>
                             <p className="text-sm text-white">Phone: +1 201-477-0362
 </p>
                             <p className="text-sm text-white">Media Inquiries</p>

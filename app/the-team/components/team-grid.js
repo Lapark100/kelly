@@ -37,6 +37,28 @@ export default function TeamGrid() {
       position: "Company Vendor",
       image: "/images/edward.jpeg",
     },
+
+    {
+        name: "Robyn Robinson",
+        position: "Hiring Manager",
+        image: "/images/robyn.jpeg",
+      },
+
+      {
+        name: "Kevin Kelly",
+        position: "Investor",
+        image: "/images/kevin.jpeg",
+      },
+
+      {
+        name: "Brandon Conelley",
+        position: "Investor",
+        image: "/images/brandon.jpeg",
+      },
+
+      
+       
+
   ];
 
   return (
