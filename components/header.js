@@ -23,7 +23,7 @@ export default function Header() {
           <Link href="/the-team" className="hover:text-[#00b142]">The Kelly Team</Link>
           <Link href="/" className="hover:text-[#00b142]">News & Insight</Link>
           <Link href="/" className="hover:text-[#00b142]">Investors</Link>
-          <Link href="/" className="hover:text-[#00b142]">Find a Job</Link>
+          <Link href="/job-listing" className="hover:text-[#00b142]">Find a Job</Link>
         </div>
 
         {/* CTA Button (Desktop Only) */}
