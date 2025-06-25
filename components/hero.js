@@ -18,13 +18,11 @@ export default function Hero() {
                     {/* Call to action container */}
                     <div className="flex flex-row space-x-6 items-center">
                         <div className="w-[200px] sm:w-[250px] h-[50px] sm:h-[58px] text-[16px] sm:text-[18px] font-bold flex items-center justify-center bg-[#AED5AF]">
-                            <Link href="https://forms.gle/urR82XMm1WAYiHmm7">HIRE EXPERT TALENT</Link>
+                            <Link href="/job-listing">HIRE EXPERT TALENT</Link>
                         </div>
 
                         <div className="flex items-center space-x-2 text-white">
-                            <p className="text-[18px] sm:text-[20px] font-bold underline cursor-pointer">
-                                Explore jobs
-                            </p>
+                            <Link href="/job-listing" className="text-[18px] sm:text-[20px] font-bold underline cursor-pointer"> Explore jobs</Link>
                             <ArrowRight className="w-4 h-4" />
                         </div>
                     </div>

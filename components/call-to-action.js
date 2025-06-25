@@ -17,7 +17,7 @@ export default function CallToAction() {
           </p>
 
           <div className="w-[145.63px] h-[50.8px] text-[14px] text-black font-[700] bg-[#00b142] flex items-center justify-center mx-auto">
-            <Link href="https://forms.gle/urR82XMm1WAYiHmm7">FIND A JOB</Link>
+            <Link href="/job-listing">FIND A JOB</Link>
           </div>
         </div>
       </div>
