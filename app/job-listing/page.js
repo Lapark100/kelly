@@ -41,46 +41,47 @@ export default function JobListings() {
 
 // Temporary mock data
 const jobData = [
-  {
-    id: "1",
-    title: "Frontend Developer",
-    company: "Kelly Technologies",
-    location: "Remote",
-    description: "We're looking for a creative frontend developer skilled in React, TailwindCSS, and Next.js."
-  },
-  {
-    id: "2",
-    title: "HR Manager",
-    company: "Global Corp",
-    location: "Lagos, Nigeria",
-    description: "Join our HR team to manage talent recruitment, development, and employee engagement programs."
-  },
-  {
-    id: "3",
-    title: "Marketing Associate",
-    company: "Bright Media",
-    location: "Hybrid - Lagos",
-    description: "We’re hiring a data-driven marketing associate with experience in digital campaigns and content creation."
-  },
-  {
-    id: "2",
-    title: "HR Manager",
-    company: "Global Corp",
-    location: "Lagos, Nigeria",
-    description: "Join our HR team to manage talent recruitment, development, and employee engagement programs."
-  },
-  {
-    id: "3",
-    title: "Marketing Associate",
-    company: "Bright Media",
-    location: "Hybrid - Lagos",
-    description: "We’re hiring a data-driven marketing associate with experience in digital campaigns and content creation."
-  },
-  {
-    id: "3",
-    title: "Marketing Associate",
-    company: "Bright Media",
-    location: "Hybrid - Lagos",
-    description: "We’re hiring a data-driven marketing associate with experience in digital campaigns and content creation."
-  }
-];
+    {
+      id: "1",
+      title: "Frontend Developer",
+      company: "Kelly Technologies",
+      location: "Remote - San Francisco, CA",
+      description: "We're looking for a creative frontend developer skilled in React, TailwindCSS, and Next.js."
+    },
+    {
+      id: "2",
+      title: "HR Manager",
+      company: "Global Corp",
+      location: "New York, NY",
+      description: "Join our HR team to manage talent recruitment, development, and employee engagement programs."
+    },
+    {
+      id: "3",
+      title: "Marketing Associate",
+      company: "Bright Media",
+      location: "Hybrid - Austin, TX",
+      description: "We’re hiring a data-driven marketing associate with experience in digital campaigns and content creation."
+    },
+    {
+      id: "4",
+      title: "UI/UX Designer",
+      company: "PixelWave",
+      location: "Los Angeles, CA",
+      description: "We're seeking a talented designer to create user-friendly and visually appealing interfaces for our apps."
+    },
+    {
+      id: "5",
+      title: "Data Analyst",
+      company: "InsightWorks",
+      location: "Chicago, IL",
+      description: "Analyze datasets to uncover insights and help teams make data-driven decisions across departments."
+    },
+    {
+      id: "6",
+      title: "Content Strategist",
+      company: "MediaNest",
+      location: "Remote - Seattle, WA",
+      description: "Looking for a strategic thinker to plan, write, and manage content for digital platforms and campaigns."
+    }
+  ];
+  

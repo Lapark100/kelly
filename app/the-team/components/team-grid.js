@@ -17,6 +17,12 @@ export default function TeamGrid() {
             position: "Hiring Manager",
             image: "/images/donald.jpeg",
         },
+
+        {
+            name: "Robyn Robinson",
+            position: "Hiring Manager",
+            image: "/images/robyn.jpeg",
+        },
         {
             name: "Terri Chase",
             position: "Company Vendor",
@@ -39,12 +45,6 @@ export default function TeamGrid() {
         },
 
         {
-            name: "Robyn Robinson",
-            position: "Hiring Manager",
-            image: "/images/robyn.jpeg",
-        },
-
-        {
             name: "Kevin Kelly",
             position: "Investor",
             image: "/images/kevin.jpeg",
@@ -52,7 +52,7 @@ export default function TeamGrid() {
 
         {
             name: "Brandon Conelley",
-            position: "Investor",
+            position: "Board Of Director",
             image: "/images/brandon.jpeg",
         },
 
