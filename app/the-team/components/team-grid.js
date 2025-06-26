@@ -52,7 +52,7 @@ export default function TeamGrid() {
 
         {
             name: "Brandon Conelley",
-            position: "Board Of Director",
+            position: "Board Director",
             image: "/images/brandon.jpeg",
         },
 
